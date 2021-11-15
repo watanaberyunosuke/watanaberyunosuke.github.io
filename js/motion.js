@@ -30,7 +30,7 @@ NexT.motion.middleWares = {
   logo: function(integrator) {
     var sequence = [];
     var brand = document.querySelector('.brand');
-    var image = document.querySelector('.custom-logo-image');
+    var image = document.querySelector('.custom-logo-images');
     var title = document.querySelector('.site-title');
     var subtitle = document.querySelector('.site-subtitle');
     var logoLineTop = document.querySelector('.logo-line-before i');

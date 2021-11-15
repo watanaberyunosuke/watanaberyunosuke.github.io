@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', () => {
       var deltaX = event.pageX - mousePos.X;
       var deltaY = event.pageY - mousePos.Y;
       var clickingBlankPart = Math.sqrt((deltaX * deltaX) + (deltaY * deltaY)) < 20 && event.target.matches('.main');
-      if (this.isSidebarVisible && (clickingBlankPart || event.target.matches('img.medium-zoom-image, .fancybox img'))) {
+      if (this.isSidebarVisible && (clickingBlankPart || event.target.matches('img.medium-zoom-images, .fancybox img'))) {
         this.hideSidebar();
       }
     },
